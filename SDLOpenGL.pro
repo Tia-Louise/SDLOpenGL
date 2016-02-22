@@ -12,3 +12,4 @@ QMAKE_CXXFLAGS += $$system(sdl2-config --cflags)
 LIBS+=$$system(sdl2-config --libs)
 
 include($(HOME)/NGL/UseNGL.pri)
+OTHER_FILES += README.md
